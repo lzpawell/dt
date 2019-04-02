@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+zk:
+  config:
+    connectionString: 39.108.65.230:2181
+
+
+xin:
+  awell:
+    dt:
+      app-name: blala
+      app-id: 9a46b292-4e7d-4f62-a372-2c4e02ff5cce
+      enable: true
+
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: xin.awell.dt.server.domain
+  type-handlers-package: xin.awell.dt.server.utils.typeHandler
+
+
+
+spring:
+  datasource:
+    druid:
+      username: lzp
+      url: jdbc:mysql://39.108.65.230:3306/dt
+      password: chuyin12345
+

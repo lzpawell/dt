@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xin.awell.dt.server.dao.AppMetaDAO">
+
+    <select id="query" resultType="xin.awell.dt.server.domain.AppDO">
+        select appName, appId from app_list
+        where 1
+        <if test="appName != null">
+            appName = #{appName}
+        </if>
+        <if test="appId != null">
+            AND appId = #{appId}
+        </if>
+    </select>
+
+    <select id="selectOne" resultType="xin.awell.dt.server.domain.AppDO">
+        select appName, appId from app_list
+        where 1
+        <if test="appName != null">
+            AND appName = #{appName}
+        </if>
+
+        <if test="appId != null">
+            AND appId = #{appId}
+        </if>
+    </select>
+
+    <insert id="insert" parameterType="xin.awell.dt.server.domain.AppDO" >
+        insert into app_list (appName, appId) values (
+            #{appName}, #{appId}
+        )
+    </insert>
+
+    <delete id="delete">
+        <if test="appId != null || appName != null">
+            delete from app_list where 1
+            <if test="appId != null">
+                AND appId = #{appId}
+            </if>
+            <if test="appName != null">
+                AND appName = #{appName}
+            </if>
+        </if>
+    </delete>
+</mapper>

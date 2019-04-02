@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xin.awell.dt.server.dao.AppACLDAO">
+
+
+    <select id="query" resultType="xin.awell.dt.server.domain.PermissionDO">
+        select appId, userId, permission from app_acl where 1
+        <if test="appId != null">
+            AND appId = #{appId}
+        </if>
+        <if test="userId != null">
+            AND userId = #{userId}
+        </if>
+    </select>
+
+    <select id="selectOne" resultType="xin.awell.dt.server.domain.PermissionDO">
+        select appId, userId, permission  from app_acl where userId = #{userId} limit 1
+    </select>
+
+
+    <insert id="insert" parameterType="xin.awell.dt.server.domain.PermissionDO" >
+        insert into app_acl (appId, userId, permission) values (
+            #{appId}, #{userId}, #{permission}
+        )
+    </insert>
+
+
+    <insert id="insertOrUpdate" parameterType="xin.awell.dt.server.domain.PermissionDO" >
+        insert into app_acl (appId, userId, permission) values (
+            #{appId}, #{userId}, #{permission}
+        ) on duplicate key update permission = #{permission}
+    </insert>
+
+    <delete id="deleteApp" parameterType="xin.awell.dt.server.dao.queryOption.AppQueryOption">
+        delete from app_acl where appId = #{appId}
+    </delete>
+
+    <delete id="delete" parameterType="xin.awell.dt.server.domain.PermissionDO">
+        <if test="appId != null and userId != null">
+            delete from app_acl where appId = #{appId} AND userId = #{userId}
+        </if>
+    </delete>
+
+</mapper>

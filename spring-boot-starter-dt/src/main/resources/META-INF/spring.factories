@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  xin.awell.dt.autoconfig.DtAutoConfiguration

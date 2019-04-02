@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xin.awell.dt.server.dao.UserDAO">
+
+    <insert id="insert" parameterType="xin.awell.dt.server.domain.UserDO" >
+        insert into m_user (userId, password) values (
+            #{userId}, #{password}
+        )
+    </insert>
+
+    <select id="query" resultType="xin.awell.dt.server.domain.UserDO">
+        select * from m_user where 1=1
+        <if test="userId != null">
+            AND userId = #{userId}
+        </if>
+        <if test="password != null">
+            AND password= #{password}
+        </if>
+    </select>
+
+    <select id="selectOne" resultType="xin.awell.dt.server.domain.UserDO">
+        select * from m_user where userId = #{userId} limit 1
+    </select>
+
+
+    <delete id="delete">
+        delete from m_user where userId = #{userId}
+    </delete>
+</mapper>

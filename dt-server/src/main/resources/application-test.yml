@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+zk:
+  config:
+    connectionString: 39.108.65.230:2181
+
+
+xin:
+  awell:
+    dt:
+      app-name: blala
+      app-id: mdzz
+      enabled: true
