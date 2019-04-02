@@ -5,23 +5,18 @@ import lombok.Getter;
 import lombok.Setter;
 import xin.awell.dt.core.domain.HandleResult;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public abstract class BaseJobContext {
+public interface BaseJobContext {
 
-    @Getter
-    protected String paras;
+    String getParas();
 
-    @Getter
-    protected String data;
+    Serializable getData();
 
-    @Getter
-    protected String currentJobName;
+    String getJobName();
 
-    @Getter
-    protected Date gmtCreate;
+    Date getGmtCreate();
 
-    @Getter
-    @Setter
-    protected HandleResult result;
+    void setResult(HandleResult result);
 }

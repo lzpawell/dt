@@ -1,7 +1,7 @@
-package xin.awell.dt.client;
+package xin.awell.dt.server.processor;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import xin.awell.dt.client.context.SimpleJobContext;
-import xin.awell.dt.client.domain.TaskResult;
 import xin.awell.dt.client.processer.SimpleJobProcessor;
 
 /**
@@ -10,7 +10,7 @@ import xin.awell.dt.client.processer.SimpleJobProcessor;
  */
 public class MySimpleJobProcessor implements SimpleJobProcessor {
     @Override
-    public TaskResult process(SimpleJobContext taskContext) {
-        return null;
+    public void process(SimpleJobContext taskContext) {
+        System.out.println("处理简单工作！");
     }
 }

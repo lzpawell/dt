@@ -7,5 +7,5 @@ import xin.awell.dt.client.context.BaseJobContext;
  * @since 2018/11/2715:49
  */
 public interface BaseJobProcessor<T extends BaseJobContext> {
-    void process(T taskContext);
+    void process(T jobContext);
 }

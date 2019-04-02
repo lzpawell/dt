@@ -3,9 +3,12 @@ package xin.awell.dt.client.context;
 import xin.awell.dt.client.context.ParallelJobContext;
 import xin.awell.dt.client.core.JobInstanceChannel;
 import xin.awell.dt.client.domain.SubJobInstance;
+import xin.awell.dt.core.domain.HandleResult;
 import xin.awell.dt.core.domain.JobInstance;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -18,7 +21,8 @@ public class ParallelJobContextImpl extends ParallelJobContext {
     private JobInstanceChannel channel;
     private JobInstance currentJobInstance;
 
-    public ParallelJobContextImpl(JobInstance currentJobInstance, JobInstanceChannel channel){
+    public ParallelJobContextImpl(String paras, Serializable data, String jobName, Date gmtCreate, HandleResult result, JobInstance currentJobInstance, JobInstanceChannel channel){
+        super(paras, data, jobName, gmtCreate, result);
         this.channel = channel;
         this.currentJobInstance = currentJobInstance;
     }
@@ -57,5 +61,4 @@ public class ParallelJobContextImpl extends ParallelJobContext {
 
         return channel.sendJobInstanceList(instances);
     }
-
 }

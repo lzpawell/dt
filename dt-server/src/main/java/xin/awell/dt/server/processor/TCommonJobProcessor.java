@@ -1,7 +1,6 @@
-package xin.awell.dt.client;
+package xin.awell.dt.server.processor;
 
 import xin.awell.dt.client.context.SimpleJobContext;
-import xin.awell.dt.client.domain.TaskResult;
 import xin.awell.dt.client.processer.CommonJobProcessor;
 
 /**
@@ -10,7 +9,7 @@ import xin.awell.dt.client.processer.CommonJobProcessor;
  */
 public class TCommonJobProcessor implements CommonJobProcessor {
     @Override
-    public TaskResult process(SimpleJobContext taskContext) {
-        return null;
+    public void process(SimpleJobContext taskContext) {
+
     }
 }

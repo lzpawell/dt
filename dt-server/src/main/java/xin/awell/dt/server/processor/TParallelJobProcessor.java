@@ -1,7 +1,6 @@
-package xin.awell.dt.client;
+package xin.awell.dt.server.processor;
 
 import xin.awell.dt.client.context.ParallelJobContext;
-import xin.awell.dt.client.domain.TaskResult;
 import xin.awell.dt.client.processer.ParallelJobProcessor;
 
 /**
@@ -10,7 +9,7 @@ import xin.awell.dt.client.processer.ParallelJobProcessor;
  */
 public class TParallelJobProcessor implements ParallelJobProcessor {
     @Override
-    public TaskResult process(ParallelJobContext taskContext) {
-        return null;
+    public void process(ParallelJobContext taskContext) {
+
     }
 }

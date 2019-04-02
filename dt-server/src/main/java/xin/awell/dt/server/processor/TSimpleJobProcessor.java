@@ -1,7 +1,6 @@
-package xin.awell.dt.client;
+package xin.awell.dt.server.processor;
 
 import xin.awell.dt.client.context.SimpleJobContext;
-import xin.awell.dt.client.domain.TaskResult;
 import xin.awell.dt.client.processer.SimpleJobProcessor;
 
 /**
@@ -10,7 +9,8 @@ import xin.awell.dt.client.processer.SimpleJobProcessor;
  */
 public class TSimpleJobProcessor implements SimpleJobProcessor {
     @Override
-    public TaskResult process(SimpleJobContext taskContext) {
-        return null;
+    public void process(SimpleJobContext taskContext) {
+
+
     }
 }

@@ -40,12 +40,12 @@ public class Application {
         triggerService.start();
 
 
-        BaseJobProcessor processor = ProcessorContainer.getCommonJobProcessor("xin.awell.dt.client.TCommonJobProcessor");
-        processor = ProcessorContainer.getCommonJobProcessor("xin.awell.dt.client.TCommonJobProcessor");
-        processor = ProcessorContainer.getSimpleJobProcessor("xin.awell.dt.client.TSimpleJobProcessor");
-        processor = ProcessorContainer.getSimpleJobProcessor("xin.awell.dt.client.MySimpleJobProcessor");
+        BaseJobProcessor processor = ProcessorContainer.getCommonJobProcessor("xin.awell.dt.server.processor.TCommonJobProcessor");
+        processor = ProcessorContainer.getCommonJobProcessor("xin.awell.dt.server.processor.TCommonJobProcessor");
+        processor = ProcessorContainer.getSimpleJobProcessor("xin.awell.dt.server.processor.TSimpleJobProcessor");
+        processor = ProcessorContainer.getSimpleJobProcessor("xin.awell.dt.server.processor.MySimpleJobProcessor");
         processor = ProcessorContainer.getSimpleJobProcessor("xin.awell.dt.client.BalalTSimpleJobProcessor");
-        processor = ProcessorContainer.getParallelJobProcessor("xin.awell.dt.client.TParallelJobProcessor");
+        processor = ProcessorContainer.getParallelJobProcessor("xin.awell.dt.server.processor.TParallelJobProcessor");
 
 
         Scanner scanner = new Scanner(System.in);

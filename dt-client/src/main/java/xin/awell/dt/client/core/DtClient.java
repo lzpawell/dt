@@ -8,6 +8,9 @@ import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.recipes.leader.*;
 import org.apache.curator.retry.ExponentialBackoffRetry;
+import org.quartz.SchedulerException;
+import xin.awell.dt.client.core.ZKService.ZKService;
+import xin.awell.dt.client.core.ZKService.ZKServiceImpl;
 
 import java.io.IOException;
 
@@ -19,57 +22,51 @@ import java.io.IOException;
 @Accessors(chain = true)
 @Slf4j
 public class DtClient {
-    private String clientClusterId;
-    private boolean leader = false;
-    private String ZK_ADDRESS = "39.108.65.230:2181";
-    private CuratorFramework zkClient;
-    private LeaderLatch leaderLatch;
+    private String appId;
+    private String zkAddressStr;
+    private ZKService zkService;
+    private ConfigDataSynchronizer configDataSynchronizer;
+    private JobTriggerService jobTriggerService;
+    private JobRunningService jobRunningService;
+    private JobInstanceChannel channel;
 
-    public DtClient(@NonNull String ZK_ADDRESS, @NonNull String clientClusterId){
-        this.ZK_ADDRESS = ZK_ADDRESS;
-        this.clientClusterId = clientClusterId;
+    public DtClient(@NonNull String zkAddressStr, @NonNull String appId){
+        this.appId = appId;
+        this.zkAddressStr = zkAddressStr;
     }
 
-    public void start() throws InterruptedException {
-        zkClient = CuratorFrameworkFactory.newClient(
-                ZK_ADDRESS,
-                new ExponentialBackoffRetry(1000, 3)
-        );
-        zkClient.start();
+    public void start() throws Exception {
+        zkService = new ZKServiceImpl(zkAddressStr, appId);
+        zkService.start();
 
-        String path = "/" + clientClusterId;
+        configDataSynchronizer = new ConfigDataSynchronizer(zkService.getCuratorInstance(), appId);
+        configDataSynchronizer.init();
 
+        jobTriggerService = new JobTriggerService(zkService, configDataSynchronizer);
+        jobTriggerService.start();
 
-        leaderLatch = new LeaderLatch(zkClient, path, zkClient.toString());
+        channel = JobInstanceChannel.getChannel(appId);
 
-        try {
-            leaderLatch.start();
+        jobRunningService = new JobRunningService(channel);
+        jobRunningService.start();
+    }
 
+    public void shutdown() throws SchedulerException, IOException {
+        if(jobRunningService != null){
+            jobRunningService.shutdown();
+        }
 
+        if(jobTriggerService != null){
+            jobTriggerService.shutdown();
+        }
 
-        } catch (Exception e) {
-            e.printStackTrace();
+        if(configDataSynchronizer != null){
+            configDataSynchronizer.close();
+        }
+
+        if(zkService != null){
+            zkService.shutdown();
         }
     }
 
-    public void shutdown(){
-
-    }
-
-
-
-
-    public void close() {
-        if(leaderLatch != null){
-            try {
-                leaderLatch.close(LeaderLatch.CloseMode.NOTIFY_LEADER);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-
-        if(zkClient != null){
-            zkClient.close();
-        }
-    }
 }

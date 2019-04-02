@@ -44,6 +44,15 @@ public class JobRunningService {
         }
     }
 
+    public void shutdown(){
+        if(activeLooperList != null && activeLooperList.size() != 0){
+            activeLooperList.forEach(Looper::shutdown);
+        }
+
+        if(suspendLooperList != null && suspendLooperList.size() != 0){
+            suspendLooperList.forEach(Looper::shutdown);
+        }
+    }
 
     private class Looper extends Thread{
         private static final int INIT = -1;
@@ -125,21 +134,21 @@ public class JobRunningService {
                 }
 
                 JobInstance instance = channel.getJobInstance();
-                BaseJobContext context = null;
+                BaseJobContextImpl context = null;
                 BaseJobProcessor processor = null;
                 Throwable throwable = null;
                 try {
                     switch (instance.getJobType()){
                         case simpleJob:
-                            context = new SimpleJobContext();
+                            context = new SimpleJobContext(instance.getParentId(), instance.getData(), instance.getJobName(), instance.getGmtCreate(), null);
                             processor = ProcessorContainer.getSimpleJobProcessor(instance.getJobProcessor());
                             break;
                         case parallelJob:
-                            context = new ParallelJobContextImpl(instance, channel);
+                            context = new ParallelJobContextImpl(instance.getParentId(), instance.getData(), instance.getJobName(), instance.getGmtCreate(), null, instance, channel);
                             processor = ProcessorContainer.getParallelJobProcessor(instance.getJobProcessor());
                             break;
                         case commonJob:
-                            context = new CommonJobContext();
+                            context = new CommonJobContext(instance.getParentId(), instance.getData(), instance.getJobName(), instance.getGmtCreate(), null);
                             processor = ProcessorContainer.getCommonJobProcessor(instance.getJobProcessor());
                             break;
                         default: break;
@@ -161,7 +170,7 @@ public class JobRunningService {
         }
 
 
-        private void handleJob(JobInstance instance, BaseJobContext context, BaseJobProcessor processor){
+        private void handleJob(JobInstance instance, BaseJobContextImpl context, BaseJobProcessor processor){
             if(processor == null){
                 log.error("配置异常！ 在类路径下查找不到需要的processor! processorFullPathName: {}", instance.getJobProcessor());
             }else{
@@ -178,7 +187,7 @@ public class JobRunningService {
             }
         }
 
-        private void postContextHandle(BaseJobContext context, JobInstance instance, Throwable throwable){
+        private void postContextHandle(BaseJobContextImpl context, JobInstance instance, Throwable throwable){
             if(throwable != null){
                 context.setResult(buildDefaultFailureResult(instance));
             }
@@ -187,6 +196,9 @@ public class JobRunningService {
 
             if(result != null){
                 if(result.isSuccess()){
+                    if(context instanceof ParallelJobContextImpl){
+                        ((ParallelJobContextImpl) context).uploadSubJobInstances();
+                    }
                     channel.ackJobInstance(instance);
                 }else{
                     instance.setLastHandleResult(context.getResult());
@@ -219,7 +231,7 @@ public class JobRunningService {
             return result;
         }
 
-        private void retryJobInstance(BaseJobContext context, JobInstance instance){
+        private void retryJobInstance(BaseJobContextImpl context, JobInstance instance){
             if(instance.getHasBeenRetried() > 100){
                 channel.ackJobInstance(instance);
                 log.info("自动ack一个重试多次也未能完成的任务！ instance: {}", instance);
