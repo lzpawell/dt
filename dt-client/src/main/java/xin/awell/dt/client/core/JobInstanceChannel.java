@@ -56,6 +56,7 @@ public class JobInstanceChannel {
     }
 
     public boolean ackJobInstance(JobInstance jobInstance){
+        System.out.println("ack Job : " + jobInstance.getInstanceId());
         return true;
     }
 

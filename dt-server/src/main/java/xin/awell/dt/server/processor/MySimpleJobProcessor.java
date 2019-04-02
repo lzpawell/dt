@@ -1,5 +1,6 @@
 package xin.awell.dt.server.processor;
 
+import com.alibaba.fastjson.JSON;
 import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import xin.awell.dt.client.context.SimpleJobContext;
 import xin.awell.dt.client.processer.SimpleJobProcessor;
@@ -10,7 +11,7 @@ import xin.awell.dt.client.processer.SimpleJobProcessor;
  */
 public class MySimpleJobProcessor implements SimpleJobProcessor {
     @Override
-    public void process(SimpleJobContext taskContext) {
-        System.out.println("处理简单工作！");
+    public void process(SimpleJobContext jobContext) {
+        System.out.println("处理简单工作！" + JSON.toJSONString(jobContext));
     }
 }

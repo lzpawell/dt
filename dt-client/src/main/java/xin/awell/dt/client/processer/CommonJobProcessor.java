@@ -1,6 +1,6 @@
 package xin.awell.dt.client.processer;
 
-import xin.awell.dt.client.context.SimpleJobContext;
+import xin.awell.dt.client.context.CommonJobContext;
 
 /**
  * @author lzp
@@ -8,5 +8,5 @@ import xin.awell.dt.client.context.SimpleJobContext;
  *
  * 集群task， task触发后整个集群所有实例都会触发一次这个回调
  */
-public interface CommonJobProcessor extends BaseJobProcessor<SimpleJobContext> {
+public interface CommonJobProcessor extends BaseJobProcessor<CommonJobContext> {
 }

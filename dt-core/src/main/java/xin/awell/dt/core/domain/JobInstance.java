@@ -33,7 +33,7 @@ public class JobInstance {
     private HandleResult lastHandleResult;
     private int  hasBeenRetried;
 
-    private static String DEFAULT_JOB_NAME = "default";
+    public static String DEFAULT_JOB_NAME = "default";
 
     public static JobInstance jobConfigToInstance(JobConfigDO configDO){
         JobInstance instance = new JobInstance();
@@ -52,7 +52,8 @@ public class JobInstance {
 
     public static JobInstance createSubJobInstance(JobInstance instance, Serializable data, String subJobName){
         JobInstance subInstance =  new JobInstance();
-        instance.setAppId(instance.getAppId())
+        subInstance.setAppId(instance.getAppId())
+                .setInstanceId(UUID.randomUUID().toString())
                 .setData(data)
                 .setGmtCreate(new Date())
                 .setJobId(instance.getJobId())

@@ -1,6 +1,7 @@
 package xin.awell.dt.server.processor;
 
-import xin.awell.dt.client.context.SimpleJobContext;
+import com.alibaba.fastjson.JSON;
+import xin.awell.dt.client.context.CommonJobContext;
 import xin.awell.dt.client.processer.CommonJobProcessor;
 
 /**
@@ -9,7 +10,7 @@ import xin.awell.dt.client.processer.CommonJobProcessor;
  */
 public class TCommonJobProcessor implements CommonJobProcessor {
     @Override
-    public void process(SimpleJobContext taskContext) {
-
+    public void process(CommonJobContext jobContext) {
+        System.out.println("run common job!" + JSON.toJSONString(jobContext));
     }
 }

@@ -157,6 +157,7 @@ public class JobRunningService {
                     handleJob(instance, context, processor);
                 }catch (Throwable e){
                     throwable = e;
+                    e.printStackTrace();
                 }finally {
                     postContextHandle(context, instance, throwable);
                 }
