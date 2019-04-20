@@ -133,11 +133,12 @@ public class JobRunningService {
                     }
                 }
 
-                JobInstance instance = channel.getJobInstance();
+                Throwable throwable = null;
+                JobInstance instance = null;
                 BaseJobContextImpl context = null;
                 BaseJobProcessor processor = null;
-                Throwable throwable = null;
                 try {
+                    instance = channel.getJobInstance();
                     switch (instance.getJobType()){
                         case simpleJob:
                             context = new SimpleJobContext(instance.getParentId(), instance.getData(), instance.getJobName(), instance.getGmtCreate(), null);
@@ -159,7 +160,9 @@ public class JobRunningService {
                     throwable = e;
                     e.printStackTrace();
                 }finally {
-                    postContextHandle(context, instance, throwable);
+                    if(instance != null && context != null){
+                        postContextHandle(context, instance, throwable);
+                    }
                 }
 
                 currentStatus = status.get();

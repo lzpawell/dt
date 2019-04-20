@@ -14,10 +14,6 @@ import java.util.List;
  * @author lzp
  * @since 2018/11/2715:38
  */
-public abstract class ParallelJobContext extends BaseJobContextImpl {
-    public ParallelJobContext(String paras, Serializable data, String jobName, Date gmtCreate, HandleResult result) {
-        super(paras, data, jobName, gmtCreate, result);
-    }
-
+public interface ParallelJobContext extends BaseJobContext {
     public abstract void distributeSubJob(List<SubJobInstance> subJobList);
 }

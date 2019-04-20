@@ -1,12 +1,14 @@
 package xin.awell.dt.client.core;
 
 import lombok.Getter;
+import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;
 import xin.awell.dt.client.constant.InstanceStatus;
 import xin.awell.dt.client.core.ZKService.StatusChangedListener;
 import xin.awell.dt.client.core.ZKService.ZKService;
+import xin.awell.dt.client.utils.JobConfigValidator;
 import xin.awell.dt.core.domain.JobConfigDO;
 
 import java.util.*;
@@ -31,14 +33,15 @@ public class JobTriggerService {
         scheduler = StdSchedulerFactory.getDefaultScheduler();
 
         configDataUpdatedListener = newJobConfigDOList -> {
+            List<JobConfigDO> activeJobConfigDOList = validateJobConfig(activeJobConfigFilter(newJobConfigDOList));
             //create or update
-            newJobConfigDOList.forEach(this::resetJob);
+            activeJobConfigDOList.forEach(this::resetJob);
 
             Collection<JobConfigDO> deletedList = jobConfigDataHashMap.values()
                     .stream()
                     .filter(jobConfigDO -> {
                         boolean found = false;
-                        for(JobConfigDO configDO : newJobConfigDOList){
+                        for(JobConfigDO configDO : activeJobConfigDOList){
                             if(Objects.equals(configDO.getJobId(), jobConfigDO.getJobId())){
                                 found = true;
                                 break;
@@ -50,6 +53,7 @@ public class JobTriggerService {
                     .collect(Collectors.toList());
 
             //delete
+            deletedList.stream().map(JobConfigDO::getJobId).forEach(jobConfigDataHashMap::remove);
             deletedList.forEach(this::removeJob);
         };
 
@@ -157,6 +161,19 @@ public class JobTriggerService {
         zkService.removeListener(statusChangedListener);
         scheduler.shutdown();
         this.running = false;
+    }
+
+
+    private List<JobConfigDO> activeJobConfigFilter(@NonNull List<JobConfigDO> configDOList){
+        return configDOList.stream()
+                .filter(JobConfigDO::getEnable)
+                .collect(Collectors.toList());
+    }
+
+    private List<JobConfigDO> validateJobConfig(@NonNull List<JobConfigDO> configDOList){
+        return configDOList.stream()
+                .filter(JobConfigValidator::validateJobConfig)
+                .collect(Collectors.toList());
     }
 
 }

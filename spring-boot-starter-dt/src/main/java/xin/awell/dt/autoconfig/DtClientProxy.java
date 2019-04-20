@@ -35,7 +35,6 @@ public class DtClientProxy implements InitializingBean, DisposableBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        System.out.println("lalalalala");
         String ZK_CONNECTION_STR = "39.108.65.230:2181";
         dtClient = new DtClient(ZK_CONNECTION_STR, dtConfig.getAppId());
         dtClient.start();

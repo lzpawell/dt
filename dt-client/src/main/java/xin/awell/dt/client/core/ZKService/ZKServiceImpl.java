@@ -10,7 +10,9 @@ import org.apache.curator.framework.recipes.cache.TreeCache;
 import org.apache.curator.framework.recipes.leader.LeaderLatch;
 import org.apache.curator.framework.recipes.leader.LeaderLatchListener;
 import org.apache.curator.framework.recipes.leader.Participant;
+import org.apache.curator.framework.recipes.nodes.PersistentEphemeralNode;
 import org.apache.curator.retry.ExponentialBackoffRetry;
+import org.apache.zookeeper.CreateMode;
 import xin.awell.dt.client.constant.InstanceStatus;
 
 import java.io.IOException;
@@ -25,7 +27,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Slf4j
 public class ZKServiceImpl implements ZKService{
-
+    private static final String DT_INSTANCE_ROOT_PATH = "/instance";
     private String zkConnectString;
     private CuratorFramework client;
     private LeaderLatch leaderLatch;
@@ -53,13 +55,13 @@ public class ZKServiceImpl implements ZKService{
 
     private boolean leader;
     private InstanceStatus currentInstanceStatus;
-    public ZKServiceImpl(@NonNull String zkConnectString, @NonNull String appId){
+    public ZKServiceImpl(@NonNull String zkConnectString, @NonNull String appId, @NonNull String instanceId){
         this.zkConnectString = zkConnectString;
         this.appId = appId;
+        this.instanceId = instanceId;
         connected = false;
         leader = false;
         currentInstanceStatus = InstanceStatus.UNKNOWN;
-        this.instanceId = UUID.randomUUID().toString();
     }
 
     @Override
@@ -117,6 +119,13 @@ public class ZKServiceImpl implements ZKService{
             }
         });
         leaderLatch.start();
+
+
+        try{
+            client.create().creatingParentsIfNeeded().withMode(CreateMode.EPHEMERAL).forPath(DT_INSTANCE_ROOT_PATH + "/" + instanceId);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
         checkStatus();
     }

@@ -14,6 +14,7 @@ import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import xin.awell.dt.autoconfig.DtConfig;
 import xin.awell.dt.core.constant.TriggerMode;
 import xin.awell.dt.core.domain.DataResult;
 import xin.awell.dt.core.domain.JobConfigDO;
@@ -38,6 +39,7 @@ public class ZKServiceImpl implements ZKService , InitializingBean, DisposableBe
 
     @Autowired
     private ZKConfig zkConfig;
+
 
     private static final String ROOT_CONFIG_PATH = "/job_config";
 

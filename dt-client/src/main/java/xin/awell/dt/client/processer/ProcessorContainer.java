@@ -1,11 +1,15 @@
 package xin.awell.dt.client.processer;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.HashMap;
 
 /**
  * @author lzp
  * @since 2019/4/12:00
  */
+
+@Slf4j
 public class ProcessorContainer {
     private static HashMap<String, CommonJobProcessor> commonJobProcessorHashMap = new HashMap<>();
     private static HashMap<String, SimpleJobProcessor> simpleJobProcessorHashMap = new HashMap<>();
@@ -25,9 +29,9 @@ public class ProcessorContainer {
                         processor = (CommonJobProcessor) getProcessorInternal(fullPathName);
                         commonJobProcessorHashMap.put(fullPathName, processor);
                     } catch (Exception e) {
-                        e.printStackTrace();
+                        log.error("get common job processor error! msg {}", e.getMessage());
+                        processor = null;
                     }
-
                 }
             }
         }
@@ -44,7 +48,8 @@ public class ProcessorContainer {
                         processor = (SimpleJobProcessor) getProcessorInternal(fullPathName);
                         simpleJobProcessorHashMap.put(fullPathName, processor);
                     } catch (Exception e) {
-                        e.printStackTrace();
+                        log.error("get simple job processor error! {}", e.getMessage());
+                        processor = null;
                     }
                 }
             }
@@ -62,7 +67,8 @@ public class ProcessorContainer {
                         processor = (ParallelJobProcessor) getProcessorInternal(fullPathName);
                         parallelJobProcessorHashMap.put(fullPathName, processor);
                     } catch (Exception e) {
-                        e.printStackTrace();
+                        log.error("get parallel job processor error! {}", e.getMessage());
+                        processor = null;
                     }
                 }
             }
@@ -71,7 +77,4 @@ public class ProcessorContainer {
         return processor;
     }
 
-    public static BaseJobProcessor getJobProcessor(String fullPathName){
-        return null;
-    }
 }

@@ -5,13 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7989a93a-125f-47fb-a8c0-74ed1e5c87ff" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceRecovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/utils/JobConfigValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/utils/RedisPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextInternal.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextInternal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContextImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContextImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceChannel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobRunningService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobRunningService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/CommonJobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/CommonJobProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobTriggerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobTriggerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ZKService/ZKServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ZKService/ZKServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/ProcessorContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/ProcessorContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dt-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/JobInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/JobInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/MySimpleJobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/MySimpleJobProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TCommonJobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TCommonJobProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dt-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TParallelJobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TParallelJobProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/service/impl/ZKServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/service/impl/ZKServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-starter-dt/src/main/java/xin/awell/dt/autoconfig/DtClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-starter-dt/src/main/java/xin/awell/dt/autoconfig/DtClientProxy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,22 +42,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dt" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JobRunningService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobRunningService.java">
+      <file leaf-file-name="JobInstanceChannel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="146" selection-start-line="146" selection-end-line="146" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParallelJobContextImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContextImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+            <state relative-caret-position="319">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,11 +73,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobInstanceChannel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceChannel.java">
+      <file leaf-file-name="JobTriggerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobTriggerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="58" column="67" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="67" />
+            <state relative-caret-position="87">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZKServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ZKService/ZKServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JobInstanceRecovery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceRecovery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DtClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="57" column="100" selection-start-line="57" selection-start-column="100" selection-end-line="57" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigDataSynchronizer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ConfigDataSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="76" column="62" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -62,36 +127,10 @@
       <file leaf-file-name="MySimpleJobProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/MySimpleJobProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+            <state relative-caret-position="209">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TCommonJobProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TCommonJobProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TParallelJobProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TParallelJobProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,35 +139,8 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JobInstance.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/JobInstance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="55" column="60" lean-forward="true" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonJobProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/CommonJobProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DtClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="228">
+              <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -141,18 +153,13 @@
         <option value="Arquillian JUnit Test Class" />
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Job</find>
-      <find>create</find>
-      <find>slf</find>
-      <find>newTrigger</find>
-      <find>guava</find>
       <find>Null</find>
       <find>InitializingBean</find>
       <find>11111</find>
@@ -168,7 +175,6 @@
       <find>xin.awell.dt.server.dao.UserDAO</find>
       <find>encode</find>
       <find>matches</find>
-      <find>up</find>
       <find>service</find>
       <find>ROOT_CONFIG_PATH</find>
       <find>appId</find>
@@ -178,6 +184,12 @@
       <find>System</find>
       <find>scheduleJob failed</find>
       <find>ack Job</find>
+      <find>qua</find>
+      <find>push</find>
+      <find>sendJobInstance</find>
+      <find>lalalalala</find>
+      <find>up</find>
+      <find>creatingParentCon</find>
     </findStrings>
     <replaceStrings>
       <replace>@Test</replace>
@@ -192,57 +204,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/api/TestApi.java" />
-        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/config/LogoutSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/config/WebSecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/utils/UserInfoGetter.java" />
-        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/utils/AuthUserInfoGetter.java" />
-        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/api/AppConfigApi.java" />
-        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/dao/queryOption/AppQueryOption.java" />
         <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/dao/AppDAO.java" />
-        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/service/impl/ZKServiceImpl.java" />
         <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/api/JobConfigApi.java" />
         <option value="$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/JobConfigDO.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ConfigDataSynchronizer.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/QuartzJobProcessor.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtJobProcessor.java" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ZKService/ZKServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobTriggerService.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/TestSimpleJobProcessor.java" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/Application.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/domain/TaskResult.java" />
         <option value="$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/HandleResult.java" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/ProcessorContainer.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/domain/SubJobInstance.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ParallelJobContextImpl.java" />
-        <option value="$PROJECT_DIR$/dt-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-starter-dt/src/main/java/xin/awell/dt/autoconfig/DtConfig.java" />
-        <option value="$PROJECT_DIR$/spring-boot-starter-dt/src/main/java/xin/awell/dt/autoconfig/DtClientProxy.java" />
         <option value="$PROJECT_DIR$/spring-boot-starter-dt/src/main/java/xin/awell/dt/autoconfig/DtAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/dt-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtClient.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/TCommonJobProcessor.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/TParallelJobProcessor.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/TSimpleJobProcessor.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/MySimpleJobProcessor.java" />
-        <option value="$PROJECT_DIR$/dt-client/pom.xml" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/ParallelJobProcessor.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/SimpleJobContext.java" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContext.java" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContextImpl.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/CommonJobContext.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContext.java" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextInternal.java" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextImpl.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/BaseJobProcessor.java" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceChannel.java" />
         <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/MySimpleJobProcessor.java" />
         <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/CommonJobProcessor.java" />
         <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TCommonJobProcessor.java" />
-        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TParallelJobProcessor.java" />
-        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobRunningService.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/ProcessorContainer.java" />
+        <option value="$PROJECT_DIR$/dt-core/pom.xml" />
+        <option value="$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/utils/JobConfigValidator.java" />
+        <option value="$PROJECT_DIR$/dt-client/pom.xml" />
         <option value="$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/JobInstance.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/Application.java" />
+        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/Application.java" />
+        <option value="$PROJECT_DIR$/dt-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/service/impl/ZKServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-starter-dt/src/main/java/xin/awell/dt/autoconfig/DtClientProxy.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextImpl.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextInternal.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContext.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContextImpl.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobRunningService.java" />
+        <option value="$PROJECT_DIR$/dt-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceChannel.java" />
+        <option value="$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TParallelJobProcessor.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/utils/RedisPool.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/utils/JobConfigValidator.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobTriggerService.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceRecover.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ZKService/ZKServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceRecovery.java" />
+        <option value="$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtClient.java" />
       </list>
     </option>
   </component>
@@ -259,13 +271,34 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="dt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="525" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -273,64 +306,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
-              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
-              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
-              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="xin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
-              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="xin" type="462c0819:PsiDirectoryNode" />
-              <item name="awell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
-              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="xin" type="462c0819:PsiDirectoryNode" />
-              <item name="awell" type="462c0819:PsiDirectoryNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
-              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="xin" type="462c0819:PsiDirectoryNode" />
-              <item name="awell" type="462c0819:PsiDirectoryNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
-              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="xin" type="462c0819:PsiDirectoryNode" />
-              <item name="awell" type="462c0819:PsiDirectoryNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -417,19 +392,6 @@
               <item name="awell" type="462c0819:PsiDirectoryNode" />
               <item name="dt" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="dt-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xin" type="462c0819:PsiDirectoryNode" />
-              <item name="awell" type="462c0819:PsiDirectoryNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -443,88 +405,21 @@
               <item name="awell" type="462c0819:PsiDirectoryNode" />
               <item name="dt" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="processer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="dt-core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="dt-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="dt-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="dt-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="dt-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="dt-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xin" type="462c0819:PsiDirectoryNode" />
-              <item name="awell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="dt-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xin" type="462c0819:PsiDirectoryNode" />
-              <item name="awell" type="462c0819:PsiDirectoryNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="dt-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xin" type="462c0819:PsiDirectoryNode" />
-              <item name="awell" type="462c0819:PsiDirectoryNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="ZKService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dt" type="b2602c69:ProjectViewProjectNode" />
               <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="dt-core" type="462c0819:PsiDirectoryNode" />
+              <item name="dt-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xin" type="462c0819:PsiDirectoryNode" />
               <item name="awell" type="462c0819:PsiDirectoryNode" />
               <item name="dt" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dt" type="b2602c69:ProjectViewProjectNode" />
@@ -613,42 +508,252 @@
               <item name="dt-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xin" type="462c0819:PsiDirectoryNode" />
+              <item name="awell" type="462c0819:PsiDirectoryNode" />
+              <item name="dt" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dt" type="462c0819:PsiDirectoryNode" />
+              <item name="dt-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xin" type="462c0819:PsiDirectoryNode" />
+              <item name="awell" type="462c0819:PsiDirectoryNode" />
+              <item name="dt" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dt" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-framework:4.1.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-framework:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-framework-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-framework:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-framework-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-framework:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-framework-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-framework:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-framework-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="curator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-framework:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-framework-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="curator" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-framework:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-framework-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="curator" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-recipes:4.1.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-recipes:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-recipes-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-recipes:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-recipes-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-recipes:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-recipes-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-recipes:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-recipes-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="curator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-recipes:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-recipes-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="curator" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-recipes:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-recipes-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="curator" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.curator:curator-recipes:4.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="curator-recipes-4.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="curator" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.zookeeper:zookeeper:3.4.12" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.zookeeper:zookeeper:3.4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="zookeeper-3.4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.zookeeper:zookeeper:3.4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="zookeeper-3.4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.zookeeper:zookeeper:3.4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="zookeeper-3.4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.zookeeper:zookeeper:3.4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="zookeeper-3.4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="xin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="xin" type="462c0819:PsiDirectoryNode" />
+              <item name="awell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="xin" type="462c0819:PsiDirectoryNode" />
+              <item name="awell" type="462c0819:PsiDirectoryNode" />
+              <item name="dt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="xin" type="462c0819:PsiDirectoryNode" />
+              <item name="awell" type="462c0819:PsiDirectoryNode" />
+              <item name="dt" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dt" type="1abcf292:AndroidViewProjectNode" />
+              <item name="dtserver" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="xin" type="462c0819:PsiDirectoryNode" />
+              <item name="awell" type="462c0819:PsiDirectoryNode" />
+              <item name="dt" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -658,6 +763,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -666,7 +772,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -839,12 +945,15 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.UserDAOTest.insert" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.UserDAOTest" />
         <item itemvalue="JUnit.AppDAOTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBootEndpointsTabSettings">
+    <option name="showFiles" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -884,16 +993,15 @@
       <workItem from="1554109462498" duration="4220000" />
       <workItem from="1554200761906" duration="4291000" />
       <workItem from="1554212441438" duration="7100000" />
+      <workItem from="1554270968708" duration="2837000" />
+      <workItem from="1554977787259" duration="3905000" />
+      <workItem from="1554981843991" duration="5858000" />
+      <workItem from="1555056695337" duration="10902000" />
+      <workItem from="1555777331607" duration="3073000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDAOTest - 2019.03.26 at 21h 30m 13s.xml">
-      <configuration name="UserDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDAOTest - 2019.03.26 at 21h 34m 38s.xml">
-      <configuration name="UserDAOTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserDAOTest - 2019.03.26 at 21h 35m 18s.xml">
       <configuration name="UserDAOTest" configurationId="JUnit" />
     </history-entry>
@@ -918,9 +1026,15 @@
     <history-entry file="UserDAOTest_insert - 2019.03.26 at 21h 53m 10s.xml">
       <configuration name="UserDAOTest.insert" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserDAOTest_insert - 2019.04.12 at 16h 17m 34s.xml">
+      <configuration name="UserDAOTest.insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_insert - 2019.04.12 at 20h 28m 15s.xml">
+      <configuration name="UserDAOTest.insert" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173941000" />
+    <option name="totallyTimeSpent" value="200516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -933,40 +1047,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.259887" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Redis Servers" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.19839142" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.2566735" side_tool="true" weight="0.4965422" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info id="Structure" order="1" sideWeight="0.3069307" side_tool="true" weight="0.14879356" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.41018388" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.55445546" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32904148" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32904148" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3281471" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3418079" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.76096183" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.19632769" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49932975" weight="0.20733428" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7433265" visible="true" weight="0.27412868" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32904148" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49932975" weight="0.30551627" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6930693" visible="true" weight="0.32171583" />
+      <window_info anchor="right" id="Bean Validation" order="3" weight="0.3297587" />
+      <window_info id="Web" order="2" sideWeight="0.3069307" side_tool="true" weight="0.14879356" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.3069307" side_tool="true" weight="0.14879356" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32904148" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -980,7 +1094,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/service/impl/ZKServiceImpl.java</url>
-          <line>153</line>
+          <line>155</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -1058,30 +1172,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/Application.java</url>
-          <line>42</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceChannel.java</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobTriggerService.java</url>
+          <line>56</line>
           <properties />
-          <option name="timeStamp" value="57" />
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobRunningService.java</url>
-          <line>192</line>
+          <url>file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobTriggerService.java</url>
+          <line>35</line>
           <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TParallelJobProcessor.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="62" />
+          <option name="timeStamp" value="81" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="64" />
+      <option name="time" value="82" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1110,275 +1218,164 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ZKService/ZKServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1.jar!/redis/clients/jedis/BinaryJedis.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="199" column="36" selection-start-line="199" selection-start-column="36" selection-end-line="199" selection-end-column="36" />
+        <state relative-caret-position="226">
+          <caret line="818" column="16" selection-start-line="818" selection-start-column="16" selection-end-line="818" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ZKService/StatusChangedListener.java">
+    <entry file="file://$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/constant/JobPriority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="190">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.4.0/rocketmq-client-4.4.0.jar!/org/apache/rocketmq/client/consumer/DefaultMQPushConsumer.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1.jar!/redis/clients/jedis/Jedis.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.4.0/rocketmq-client-4.4.0-sources.jar!/org/apache/rocketmq/client/consumer/DefaultMQPushConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="61" column="75" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.4.0/rocketmq-client-4.4.0-sources.jar!/org/apache/rocketmq/client/consumer/MQPushConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-817">
-          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/TestSimpleJobProcessor.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/com/sun/nio/sctp/HandlerResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/SimpleJobProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtJobProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/HandleResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="226">
+          <caret line="409" column="16" selection-start-line="409" selection-start-column="16" selection-end-line="409" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/ProcessorContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        <state relative-caret-position="1273">
+          <caret line="69" column="89" selection-start-line="69" selection-start-column="89" selection-end-line="69" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/java.lang.Thread">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.lang.Thread</OriginalElement>
-          <nodes>
-            <node x="" y="">java.lang.FunctionalInterface</node>
-            <node x="" y="">java.lang.Thread</node>
-            <node x="" y="">java.lang.Runnable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.2811475409836068" x="276.0" y="704.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/HandleResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="1018" column="41" lean-forward="true" selection-start-line="1018" selection-start-column="41" selection-end-line="1018" selection-end-column="41" />
-          <folding>
-            <element signature="e#36709#36710#0" expanded="true" />
-            <element signature="e#36767#36768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
-          <folding>
-            <element signature="e#2671#2672#0" expanded="true" />
-            <element signature="e#2742#2743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2850">
-          <caret line="378" column="55" lean-forward="true" selection-start-line="378" selection-start-column="55" selection-end-line="378" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/domain/SubJobInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="208" column="6" selection-start-line="208" selection-start-column="6" selection-end-line="208" selection-end-column="6" />
+        <state relative-caret-position="408">
+          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="313" column="45" lean-forward="true" selection-start-line="313" selection-start-column="45" selection-end-line="313" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/commands/MultiKeyCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/config/ZKConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/config/WebSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TCommonJobProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="22" column="67" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="67" />
+        <state relative-caret-position="171">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-starter-dt/src/main/java/xin/awell/dt/autoconfig/DtAutoConfiguration.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0-sources.jar!/org/quartz/core/JobRunShell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="95">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/JobConfigDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/JobInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtJobProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1-sources.jar!/redis/clients/jedis/Jedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="972" column="14" selection-start-line="972" selection-start-column="14" selection-end-line="972" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-starter-dt/src/main/java/xin/awell/dt/autoconfig/DtClientProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-          <folding>
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-starter-dt/src/main/java/xin/awell/dt/autoconfig/DtConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="3081" selection-start-line="3081" selection-end-line="3081" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobTriggerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="91">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/ParallelJobProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="84" lean-forward="true" selection-start-line="4" selection-start-column="84" selection-end-line="4" selection-end-column="84" />
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContext.java">
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/CommonJobProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/SimpleJobContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/CommonJobContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextInternal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1389,94 +1386,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dt-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextInternal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        <state relative-caret-position="377">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dt-server/src/main/resources/application-test.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TSimpleJobProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtLeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtWorker.java">
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContextImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/processer/CommonJobProcessor.java">
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/BaseJobContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="114">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="20" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/Application.java">
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/SimpleJobContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/CommonJobContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TCommonJobProcessor.java">
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/domain/SubJobInstance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/MySimpleJobProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="177">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/context/ParallelJobContextImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+        <state relative-caret-position="266">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1485,32 +1447,157 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobRunningService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        <state relative-caret-position="1188">
+          <caret line="162" column="44" selection-start-line="162" selection-start-column="44" selection-end-line="162" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="89" column="50" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-server/src/test/java/xin/awell/dt/server/dao/UserDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/TParallelJobProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="703">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceChannel.java">
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/utils/RedisPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="58" column="67" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="67" />
+        <state relative-caret-position="304">
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dt-core/src/main/java/xin/awell/dt/core/domain/JobInstance.java">
+    <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="55" column="60" lean-forward="true" selection-start-line="55" selection-start-column="60" selection-end-line="55" selection-end-column="60" />
+        <state relative-caret-position="228">
+          <caret line="20" column="84" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/service/impl/ZKServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-server/src/main/java/xin/awell/dt/server/processor/MySimpleJobProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/4.1.0/curator-recipes-4.1.0-sources.jar!/org/apache/curator/framework/recipes/cache/PathChildrenCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="286" column="16" selection-start-line="286" selection-start-column="16" selection-end-line="286" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/utils/JobConfigValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ConfigDataSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="76" column="62" selection-start-line="76" selection-start-column="28" selection-end-line="76" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.12/zookeeper-3.4.12.jar!/org/apache/zookeeper/CreateMode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/4.1.0/curator-framework-4.1.0-sources.jar!/org/apache/curator/framework/api/PathAndBytesable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobTriggerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/4.1.0/curator-framework-4.1.0-sources.jar!/org/apache/curator/framework/api/CreateBuilderMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="44" column="77" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/ZKService/ZKServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/JobInstanceRecovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt-client/src/main/java/xin/awell/dt/client/core/DtClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="57" column="100" selection-start-line="57" selection-start-column="100" selection-end-line="57" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -1566,11 +1653,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|dtserver</last-edited>
+          <last-edited>springbootstarterdt</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

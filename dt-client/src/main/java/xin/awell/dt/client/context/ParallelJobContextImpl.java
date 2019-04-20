@@ -15,7 +15,7 @@ import java.util.List;
  * @author lzp
  * @since 2019/4/218:37
  */
-public class ParallelJobContextImpl extends ParallelJobContext {
+public class ParallelJobContextImpl extends BaseJobContextImpl implements ParallelJobContext {
 
     private List<List<SubJobInstance>> subJobInstanceLists;
     private JobInstanceChannel channel;

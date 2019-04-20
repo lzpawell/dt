@@ -17,9 +17,9 @@ import java.util.List;
 public class TParallelJobProcessor implements ParallelJobProcessor {
     @Override
     public void process(ParallelJobContext taskContext) {
-        System.out.println("处理并行任务： " + JSON.toJSONString(taskContext));
 
-        if(taskContext.getJobName() == JobInstance.DEFAULT_JOB_NAME){
+        if(JobInstance.DEFAULT_JOB_NAME.equals(taskContext.getJobName())){
+            System.out.println("处理并行任务： " + JSON.toJSONString(taskContext));
             List<SubJobInstance> subJobInstances = new ArrayList<>();
             for(int i = 0; i < 10; i++){
                 SubJobInstance instance = new SubJobInstance();
@@ -27,10 +27,18 @@ public class TParallelJobProcessor implements ParallelJobProcessor {
                 instance.setSubJobName("subName");
                 subJobInstances.add(instance);
             }
-
+            System.out.println("分发子任务！ ");
             taskContext.distributeSubJob(subJobInstances);
+        }else{
+            System.out.println("正在处理子任务： " + "name: " + taskContext.getJobName() + "   data:  " + taskContext.getData());
         }
 
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         taskContext.setResult(HandleResult.SUCCESS);
     }

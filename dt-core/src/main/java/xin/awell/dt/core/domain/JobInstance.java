@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.ToString;
 import lombok.experimental.Accessors;
+import xin.awell.dt.core.constant.JobPriority;
 import xin.awell.dt.core.constant.JobType;
 import xin.awell.dt.core.constant.TriggerMode;
 
@@ -30,6 +31,7 @@ public class JobInstance {
     private Serializable data;
     private JobType jobType;
     private Date gmtCreate;
+    private JobPriority priority;
     private HandleResult lastHandleResult;
     private int  hasBeenRetried;
 
@@ -45,7 +47,8 @@ public class JobInstance {
                 .setRuntimeParas(configDO.getRuntimeParas())
                 .setJobType(configDO.getJobType())
                 .setInstanceId(UUID.randomUUID().toString())
-                .setHasBeenRetried(0).setJobName(DEFAULT_JOB_NAME);
+                .setHasBeenRetried(0).setJobName(DEFAULT_JOB_NAME)
+                .setPriority(configDO.getPriority());
 
         return instance;
     }
@@ -62,6 +65,7 @@ public class JobInstance {
                 .setJobType(instance.getJobType())
                 .setHasBeenRetried(0)
                 .setJobName(subJobName)
+                .setPriority(instance.getPriority())
                 .setData(data);
 
         subInstance.setParentId(instance.getInstanceId());

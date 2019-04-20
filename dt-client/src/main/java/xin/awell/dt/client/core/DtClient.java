@@ -13,6 +13,7 @@ import xin.awell.dt.client.core.ZKService.ZKService;
 import xin.awell.dt.client.core.ZKService.ZKServiceImpl;
 
 import java.io.IOException;
+import java.util.UUID;
 
 /**
  * @author lzp
@@ -29,14 +30,16 @@ public class DtClient {
     private JobTriggerService jobTriggerService;
     private JobRunningService jobRunningService;
     private JobInstanceChannel channel;
+    private String instanceId;
 
     public DtClient(@NonNull String zkAddressStr, @NonNull String appId){
         this.appId = appId;
         this.zkAddressStr = zkAddressStr;
+        this.instanceId = UUID.randomUUID().toString();
     }
 
     public void start() throws Exception {
-        zkService = new ZKServiceImpl(zkAddressStr, appId);
+        zkService = new ZKServiceImpl(zkAddressStr, appId, instanceId);
         zkService.start();
 
         configDataSynchronizer = new ConfigDataSynchronizer(zkService.getCuratorInstance(), appId);
@@ -45,10 +48,15 @@ public class DtClient {
         jobTriggerService = new JobTriggerService(zkService, configDataSynchronizer);
         jobTriggerService.start();
 
+        JobInstanceChannel.createChannel(appId, instanceId);
         channel = JobInstanceChannel.getChannel(appId);
 
         jobRunningService = new JobRunningService(channel);
         jobRunningService.start();
+
+
+        JobInstanceRecovery recovery = new JobInstanceRecovery(zkService.getCuratorInstance(), appId);
+        recovery.start();
     }
 
     public void shutdown() throws SchedulerException, IOException {
