@@ -80,6 +80,7 @@ public class ZKServiceImpl implements ZKService{
                 .build();
 
         client.getConnectionStateListenable().addListener((curatorFramework, connectionState) -> {
+            log.info("current status: {}",  connectionState);
             switch (connectionState){
                 case CONNECTED:
                     connected = true;

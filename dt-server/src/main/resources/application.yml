@@ -9,8 +9,8 @@ zk:
 xin:
   awell:
     dt:
-      app-name: blala
-      app-id: 9a46b292-4e7d-4f62-a372-2c4e02ff5cce
+      app-name: dt-server
+      app-id: 4d2e166d-82ad-49d0-b3d1-88f22eb13494
       enable: true
 
 

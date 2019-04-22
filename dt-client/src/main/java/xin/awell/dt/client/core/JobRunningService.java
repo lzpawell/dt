@@ -180,7 +180,8 @@ public class JobRunningService {
             }else{
                 try{
                     processor.process(context);
-                    if(context.getResult() != null){
+                    if(context.getResult() == null){
+                        //没有设置执行结果  默认成功！
                         context.setResult(HandleResult.SUCCESS);
                     }
                 }catch (Exception e){
@@ -203,7 +204,10 @@ public class JobRunningService {
                     if(context instanceof ParallelJobContextImpl){
                         ((ParallelJobContextImpl) context).uploadSubJobInstances();
                     }
-                    channel.ackJobInstance(instance);
+
+                    if(instance.getJobType() != JobType.commonJob){
+                        channel.ackJobInstance(instance);
+                    }
                 }else{
                     instance.setLastHandleResult(context.getResult());
                     if(result.isRequireRetry()){

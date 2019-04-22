@@ -28,11 +28,11 @@
 
 
         <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client -->
-<!--        <dependency>
+        <dependency>
             <groupId>org.apache.rocketmq</groupId>
             <artifactId>rocketmq-client</artifactId>
             <version>4.4.0</version>
-        </dependency>-->
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
         <dependency>
